@@ -2,5 +2,9 @@
 const nextConfig = {
   reactStrictMode: true,
 }
-
-module.exports = nextConfig
+module.exports = {
+  env: {
+    PUBLIC_URL: "https://mandal39.github.io",
+    assetPrefix: './'
+  }
+};
