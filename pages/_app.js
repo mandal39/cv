@@ -1,5 +1,5 @@
 import '../styles/globals.css'
-import '..cv.css'
+import '../styles/cv.css'
 
 function MyApp({ Component, pageProps }) {
   return <Component {...pageProps} />
